@@ -1,5 +1,5 @@
 resource "aws_instance" "public_instance" {
-  ami                         = "ami-009e46eef82e25fef"
+  ami                         = "ami-08ee1453725d19cdb"
   instance_type               = "t2.micro"
   subnet_id                   = aws_subnet.public_subnet.id
   associate_public_ip_address = true
